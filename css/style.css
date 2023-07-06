@@ -1,0 +1,70 @@
+
+.frase-lema{
+    color: rgb(222, 178, 46);
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+  
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.fondo-pastel{
+    background-color: blanchedalmond;
+}
+
+.imagen-logo{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+.imagen-portada{
+   display: block;
+   margin: auto;
+   height: 600px;
+   width: 1000px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+     bottom: 500px;
+     left: 500px;
+     margin-inline: 50px;
+     
+}
+
+a{
+    text-decoration: none;
+}
+
+section div img{
+    
+    height: 200px;
+    width: 150px;
+}
+.logo-pie{
+    height: 70px;
+}
+
+footer div{
+    display: inline-block;
+    bottom: 500px;
+    left: 500px;
+    margin-inline: 50px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
