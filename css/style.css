@@ -14,9 +14,7 @@ ul {
     padding: 0px 0px 0px 0px;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 
 p{
@@ -34,10 +32,6 @@ h1{
     background-color:  rgb(174, 32, 18);
 }
 
-/* === body__header === */
-
-
-  
 
 
 /* === Header === */
@@ -96,16 +90,40 @@ nav ul{
 
 }
   
-  
+  /* === Carousel === */
+
+  .w-100{
+    height: auto;
+  }
+  @media (min-width: 1200px) {
+    .w-100{
+        height: 50vh;
+        width: 80% !important;
+       
+      }
+    .section__carousel{
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    div .carousel-item.active{
+        margin-left: 10%;
+        
+    }
+
+}
 
 
 /* === Lema === */
 
 
 .frase-lema{
-    color: rgb(222, 178, 46);
-    font-size: xx-large;
+    /*color: rgb(222, 178, 46);*/
+    color: rgb(202, 103, 2);
+    font-size: 2.5rem;
     font-family: cursive;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
   
 }
