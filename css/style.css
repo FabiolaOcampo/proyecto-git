@@ -196,6 +196,8 @@ section div img{
     height: 90%;
     width: 60%;
     grid-row: 1/4;
+    border-radius: 6px;
+    
     
 }
 
@@ -243,6 +245,7 @@ section div img{
 .consejos__img{
     height: 100%;
     width: 95%;
+    border-radius: 20px;
     
 }
 
@@ -254,6 +257,60 @@ section div img{
 .div__p2{
     text-align: right;
     margin-right: 10px;
+}
+
+.div__img{
+    margin-bottom: 10px;
+    
+}
+ 
+p{
+    font-family:'Ysabeau Office', sans-serif;
+}
+
+
+@media (min-width: 1200px) {
+    .article__consejos{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 100px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+    }
+
+    .consejos__img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    h3{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .div__img{
+        height: 400px;
+        margin-bottom: 20px;
+    }
+   
+
+    .div__p1{
+        text-align: justify;
+        margin-left: 10px;
+        
+    }
+    
+    .div__p2{
+        text-align: justify;
+        margin-right: 10px;
+    }
+
+
+
 }
 
 
