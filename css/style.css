@@ -230,6 +230,9 @@ section div img{
         
     }
 
+
+ /* === Productos === */   
+
 /* === Consejos === */
 
 .article__consejos{
@@ -352,6 +355,34 @@ p{
         margin-bottom: 20px;
     }
 }
+
+
+/* === Contacto === */
+
+.div__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    
+}
+
+form div{
+    padding-bottom: 20px;
+}
+
+.div__label{
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+}
+
+
 /* === Footer === */
 
 .logo-pie{
