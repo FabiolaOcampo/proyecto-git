@@ -24,7 +24,7 @@ $ff-dancing: 'Dancing Script', cursive;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:  1fr 1fr;
 }
-
+  
 
 *{
     margin: 0;
@@ -35,6 +35,9 @@ $ff-dancing: 'Dancing Script', cursive;
 a {
     text-decoration: none;
     color: inherit;
+    &:hover{
+        color: white;
+    }
 
  }
   
@@ -67,11 +70,6 @@ main{
     background-color: rgba(233, 216, 166, 0.324);
 }
 
-
-
-
 p{
     font-family: $ff-ysabeau;
-   
-
 }

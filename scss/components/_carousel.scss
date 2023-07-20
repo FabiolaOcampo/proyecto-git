@@ -3,25 +3,18 @@
 .w-100{
     height: auto;
     @include desktop{
-
         height: 50vh;
         width: 80% !important;
-       
       }
-    }
+}
 
-  
-  @media (min-width: 1200px) {
-    
+@media (min-width: 1200px) {
     .section__carousel{
         display: flex;
-        flex-direction: column;
-    
-        
+        flex-direction: column;   
     }
     div .carousel-item.active{
         margin-left: 10%;
         
     }
-
 }

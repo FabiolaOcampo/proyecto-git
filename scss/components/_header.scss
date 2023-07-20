@@ -2,8 +2,8 @@
 
 header {
     background-color:$c-rojo;
-        color:$c-beige;
-        padding: 1.2rem;
+    color:$c-beige;
+    padding: 1.2rem;
     }
     
     .imagen-logo{
@@ -27,10 +27,6 @@ header {
         }
     }
     
-    
-    
-    
-    
     @media (min-width: 1200px) {
         .imagen-logo{
             height: 200px;
@@ -53,6 +49,4 @@ header {
         margin-right: auto;
     }
     
-    }
-      
-     
+    } 
