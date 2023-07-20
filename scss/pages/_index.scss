@@ -1,0 +1,105 @@
+/* === Index - Lema === */
+
+
+.frase-lema{
+    /*color: rgb(222, 178, 46);*/
+    color: rgb(202, 103, 2);
+    font-size: 2.5rem;
+    font-family: $ff-dancing;
+    text-align: center;
+  
+}
+
+div.section__Lema{
+    background-color: rgb(233, 216, 166);
+}
+
+#hrprincipal{
+    margin-top: 0px;
+}
+
+hr{
+    color: rgb(238, 155, 0);
+}
+
+@media (min-width: 1200px) {
+    .frase-lema{
+    font-size: 3.5rem;
+
+    }
+}
+    
+
+/* === Index - Nuestros Productos === */
+
+
+.div__article{
+    color: rgb(155, 34, 38);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 1fr 1fr;
+    justify-items: center;
+    align-items: end;
+    
+}
+
+.div__buttom{
+    
+    border-style: solid;
+    border-color: $c-naranja;
+    border-radius: 20px;
+    border-width: 1.5px;
+    text-align: center;
+    width: 100px;
+    margin: 6px;
+    background-color: $c-naranja;
+    font-family: $ff-ysabeausc;
+       
+}
+
+
+
+
+section div img{
+    height: 90%;
+    width: 60%;
+    grid-row: 1/4;
+    border-radius: 6px;
+    
+    
+}
+
+.section__NuestrosProductos{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    
+}
+
+@media (min-width: 768px) {
+    .section__NuestrosProductos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+        align-items: center;
+
+
+    }
+    section div img{
+        height: 300px;
+        width: 250px;  
+        }
+        
+    .div__buttom{
+        margin-bottom: 40px;
+    }
+        
+    }
+
+
+@media (min-width: 1200px) {
+    .section__NuestrosProductos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+      
+    }

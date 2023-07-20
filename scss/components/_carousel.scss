@@ -1,0 +1,23 @@
+/* === Index - Carousel === */
+
+.w-100{
+    height: auto;
+  }
+  @media (min-width: 1200px) {
+    .w-100{
+        height: 50vh;
+        width: 80% !important;
+       
+      }
+    .section__carousel{
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    div .carousel-item.active{
+        margin-left: 10%;
+        
+    }
+
+}

@@ -1,0 +1,42 @@
+/* === Quiénes somos === */
+
+.div__parrafo {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+}
+.div__imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.quienessomos_img{
+    width: 80%;
+    height: 350%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    .div__parrafo {    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+    
+}
+
+
+@media (min-width: 1200px){
+    .quienessomos_img{
+        width: 700px;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
