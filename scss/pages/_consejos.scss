@@ -1,9 +1,7 @@
 /* === Consejos === */
 
 .article__consejos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    @include grid;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -14,8 +12,6 @@
         margin-left: 50px;
         margin-right: 50px;
         padding-bottom: 100px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
 
     }
 }
