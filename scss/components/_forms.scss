@@ -10,49 +10,41 @@
     padding-top: 50px;
     text-align: center;
     font-family: $ff-ysabeausc;
-    
-}
 
-form div{
-    padding-bottom: 3%;
-    
-}
-
-.div__label{
-    font-weight: bold;
-    
-    margin-bottom: 10px;
-}
-
-
-@media (min-width: 768px){
-    .div__form{
-        
+    @include tablet{
         padding-left: 20%;
         padding-right: 20%;
         padding-bottom: 100px;
         
         text-align: left;
         font-size: 1.5rem;
-        
-        
-        
-        
+
     }
-    form div{
+    
+}
+
+form div{
+    padding-bottom: 3%;
+
+    @include tablet{
         display: flex;
         flex-direction: column;
-    }
+    
+}
+}
 
-    .div__label{
-        
+.div__label{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    @include tablet{
         margin-top: 7%;
         margin-bottom: 30px;
         
     }
-    
-    
 }
+
+
 
 
 /* === Productos - Forms === */ 
@@ -61,11 +53,8 @@ form div{
     font-family: 'Ysabeau SC', sans-serif;
     margin-left: 3%;
     margin-bottom: 10% ;
-    
- }
 
- @media (min-width: 768px) {
-    .div__forms{
+    @include tablet{
         font-size: 1.5rem;
         display: flex;
         justify-content: end;
@@ -73,4 +62,6 @@ form div{
         margin-top: 10%;
 
     }
-}
+    
+ }
+

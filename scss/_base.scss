@@ -5,6 +5,20 @@ $ff-ysabeau:'Ysabeau Office', sans-serif;
 $ff-ysabeausc:'Ysabeau SC', sans-serif;
 $ff-dancing: 'Dancing Script', cursive;
 
+@mixin tablet{
+    @media (min-width: 768px) {
+        @content;
+
+}
+}
+
+@mixin desktop{
+    @media (min-width: 1200px) {
+        @content;
+
+}
+}
+
 
 
 *{

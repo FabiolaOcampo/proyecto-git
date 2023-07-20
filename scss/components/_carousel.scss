@@ -2,13 +2,17 @@
 
 .w-100{
     height: auto;
-  }
-  @media (min-width: 1200px) {
-    .w-100{
+    @include desktop{
+
         height: 50vh;
         width: 80% !important;
        
       }
+    }
+
+  
+  @media (min-width: 1200px) {
+    
     .section__carousel{
         display: flex;
         flex-direction: column;

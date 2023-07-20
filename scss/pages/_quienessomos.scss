@@ -6,6 +6,11 @@
     padding-right: 15px;
     padding-bottom: 10px;
     margin-top: 3%;
+
+    @include tablet{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 .div__imagen{
     display: flex;
@@ -18,25 +23,10 @@
     width: 80%;
     height: 350%;
     margin-bottom: 20px;
-}
 
-@media (min-width: 768px){
-    .div__parrafo {    
-    padding-left: 10%;
-    padding-right: 10%;
-}
-    
-}
-
-
-@media (min-width: 1200px){
-    .quienessomos_img{
+    @include desktop{
         width: 700px;
         height: 600px;
         margin-bottom: 20px;
     }
 }
-
-
-
-

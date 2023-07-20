@@ -1,16 +1,5 @@
 /* === Footer === */
 
-.footer__color{
-    background-color:  $c-rojo;
-}
-
-.logo-pie{
-    display: block;
-    margin: auto;
-    height: 70px;
-    border-radius: 50px;
-}
-
 
 
 footer div{
@@ -21,29 +10,39 @@ footer div{
     padding-bottom: 0.5rem;
     font-size: 1rem; 
     color: $c-beige;
-    font-family: 'Ysabeau SC', sans-serif;
+    font-family: $ff-ysabeausc;
     text-align: center; 
     
     & h4{
     color: white;
-    font-family: 'Ysabeau SC', sans-serif;   
+    font-family: $ff-ysabeausc;   
     }
 }
 
-    
-@media (min-width: 1200px) {
-    .footer__color{
-    display: flex;
+.footer__color{
+    background-color:  $c-rojo;
+
+    @include desktop{
+        display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5rem; 
-    font-family: Arial, Helvetica, sans-serif;
     padding-right: 7rem;
+
     }
-   
-    .footer__logotipe {
-    padding-left: 7rem;
-    } 
+}
+
+.logo-pie{
+    display: block;
+    margin: auto;
+    height: 70px;
+    border-radius: 50px;
+
+    @include desktop{
+        margin-left:100%;
+}
+
+    
 }
 
     
