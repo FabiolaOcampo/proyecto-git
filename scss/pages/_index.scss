@@ -79,6 +79,7 @@ section div img{
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
+    padding-bottom: 100px;
 
     @include tablet{
         @include grid;

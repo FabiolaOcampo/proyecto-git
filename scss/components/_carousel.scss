@@ -5,6 +5,7 @@
     @include desktop{
         height: 50vh;
         width: 80% !important;
+        object-fit: cover;
       }
 }
 
