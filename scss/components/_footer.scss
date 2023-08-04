@@ -1,7 +1,8 @@
 /* === Footer === */
 
 
-footer div{
+footer{
+     div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,12 +12,13 @@ footer div{
     color: $c-beige;
     font-family: $ff-ysabeausc;
     text-align: center; 
-    
-    & h4{
+    h4{
     color: white;
     font-family: $ff-ysabeausc;   
     }
 }
+}
+
 
 .footer__color{
     background-color:  $c-rojo;
